@@ -68,7 +68,7 @@ void pop(stack_t **stack, unsigned int line_number)
 		*stack = (*stack)->next;
 		free(to_the_end);
 	}
-	return;
+
 }
 
 /**
