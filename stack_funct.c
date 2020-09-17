@@ -53,6 +53,7 @@ void push(stack_t **stack, char *n, unsigned int line_number)
 void pop(stack_t **stack, unsigned int line_number)
 {
 	stack_t *to_the_end;
+
 	if (stack == NULL)
 	{
 		printf("L%u: can't pop an empty stack\n", line_number);
