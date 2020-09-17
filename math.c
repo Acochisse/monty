@@ -25,7 +25,6 @@ void _add(stack_t **stack, unsigned int line_number)
 
 	ret = (i + j);
 	current->next->n = ret;
-	pop(stack, ret);
 	*stack = current->next;
 	free(current);
 
