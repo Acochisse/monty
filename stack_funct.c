@@ -41,7 +41,6 @@ void push(stack_t **stack, char *n, unsigned int line_number)
 		(*stack)->prev = new;
 	}
 	*stack = new;
-	free(new);
 }
 
 /**
